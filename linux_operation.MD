@@ -12,6 +12,14 @@
 
 ``` find /path f -name "*.sh" | xargs grep -i "file content" ```
 
+- mysql 修改指定账户密码
+``` sql
+    # login as root user
+    use mysql;
+    UPDATE user set authentication_string = Password("new password") WHERE user="root";
+    flush privileges;
+
+```
 
 
 
