@@ -21,5 +21,10 @@
 
 ```
 
+- 链接操作
+```sh
+    ln -s /path/to/root /path/to/destination
+```
+
 
 
