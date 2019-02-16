@@ -30,6 +30,7 @@
 ```sh
     useradd username
     passwd username
+    # adduser 更加方便
 ```
 
 - 添加用户到sudo组
@@ -38,10 +39,16 @@
 ```
 
 
-- 让用户共享linux补齐效果
+- 让新建用户共享linux补齐效果
 ```sh
     usermod -s /bin/bash username
 ```
+
+- 查看端口占用
+```sh
+    lsof -i:port
+```
+
 
 
 
