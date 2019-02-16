@@ -26,5 +26,22 @@
     ln -s /path/to/root /path/to/destination
 ```
 
+- 新建用户操作
+```sh
+    useradd username
+    passwd username
+```
+
+- 添加用户到sudo组
+```sh
+    usermod -a -G sudo username
+```
+
+
+- 让用户共享linux补齐效果
+```sh
+    usermod -s /bin/bash username
+```
+
 
 
